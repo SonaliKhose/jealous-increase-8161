@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>Sign in Page</title>
+  </head>
+  <body>
+    
+    <div id="signin">
+      <h1 id="heading">Please Enter Your Details</h1>
+      <form>
+        <input type="email" id="email" placeholder="Enter registered Email"/>
+        <br/><br/>
+        <input type="password" id="password" placeholder="Enter Password" />
+        <br/><br/>
+        <input type="submit" value="Submit" />
+        <br/><br/>
+      </form>
+    </div>
+  </body>
+  <script>
+    let form=document.querySelector("form");
+
+form.addEventListener("submit",function(event){
+ let existing_data= JSON.parse(localStorage.getItem("account-data"));
+ let old_email=existing_data[0].email;
+ let old_password=existing_data[0].password;
+
+
+  event.preventDefault();
+  let form_data={
+    email:form.email.value,
+    password:form.password.value,
+  };
+  let new_email=form_data.email;
+  let new_password=form_data.password;
+  let res=document.querySelector("#heading");
+  
+  
+  if(old_email===new_email&&old_password===new_password){
+        
+        res.textContent="Sign in Successful";
+        window.location.assign("./index.html")
+  }
+  else {
+    res.textContent="Wrong Credentials";
+  }
+ 
+})
+  </script>
+</html>
