@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign up Page</title>
+  <link rel="stylesheet" type="text/css" href="signup.css">
+ 
+</head>
+
+<body>
+  
+  <div id="signup">
+    <h1>Welcome to Branded lifestyle</h1>
+    <form>
+      <input type="text" id="name" placeholder="Enter your Name">
+      <br/><br/>
+      <input type="email" id="email" placeholder="Enter your Email">
+      <br/><br/>
+      <input type="password"  id="password" placeholder="Enter password">
+      <br/><br/>
+      <input type="submit" value="Submit" id="submit" />
+      <br/><br/>
+    </form>
+  </div>
+</body>
+<script>
+  let user_data=[];
+
+let form=document.querySelector("form");
+
+form.addEventListener("submit",function(event){
+  event.preventDefault();
+  let form_data={
+    name:form.name.value,
+    email:form.email.value,
+    password:form.password.value,
+  };
+
+  if(form_data.name==""||
+  form_data.email==""||
+  form_data.password==""
+  ){
+    alert("Please fill all deetails")
+  }
+  else{
+    user_data.push(form_data);
+    window.location.assign("./index.html")
+    localStorage.setItem("account-data",JSON.stringify(user_data));
+  }
+})
+</script>
+
+</html>

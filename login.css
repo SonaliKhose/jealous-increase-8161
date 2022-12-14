@@ -1,0 +1,24 @@
+*{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9XdAxfPpvuLiPCC5kMl2VsPC8bW-1BOgT-27WxmjnFT4-MkSjr86VpK69RZ42UIaFbiY&usqp=CAU");
+}
+
+#signin{
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+width: 400px;
+padding: 30px;
+margin-left: 500px;
+margin-top: 200px;
+background-color:aqua;
+border: 5px solid black;
+}
+#signin input{
+    font-size: 20px;
+    border: 3px solid black;
+}
+#signin h1{
+    color: rgb(255, 0, 0);
+}
+#submit{
+  cursor: pointer;
+}

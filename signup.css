@@ -1,0 +1,24 @@
+*{
+    background-image:url("https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg");
+}
+
+#signup{
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+width: 400px;
+padding: 30px;
+margin-left: 500px;
+margin-top: 200px;
+background-color:aqua;
+border: 5px solid black;
+}
+#signup input{
+    font-size: 20px;
+    border: 3px solid black;
+}
+#signup h1{
+    color: rgb(255, 0, 0);
+}
+#submit{
+  cursor: pointer;
+}

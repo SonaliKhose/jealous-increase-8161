@@ -1,0 +1,152 @@
+#logo{
+width:150px;
+margin: auto;
+}
+.nav{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#pages{
+    margin-top:20px ;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(15,1fr);
+}
+#pages a{
+    
+    padding: 5px; 
+    text-align: center;
+    color:black;
+   font-weight: bold;
+  
+}
+#toptop{
+    color: white;
+    background-color:rgb(255, 166, 0);
+    padding: 2px;
+    margin-top: 10px;
+    text-align: center;
+}
+.banner{
+    margin-top: 10px;
+    margin-left: 180px;
+    cursor: pointer;
+
+}
+.flat{
+    margin-top: 15px;
+    margin-left: 180px;
+}
+.benefits{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 180px;
+    margin-top:30px ;
+
+}
+.unmissable{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap:10px;
+    margin-left: 180px;
+}
+.unmissable img{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+#shopnow{
+    margin-left: 180px; 
+}
+.winterwear{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap:10px;
+    margin-left: 180px;
+}
+
+.winterwear img{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.watches{
+    margin-left: 180px;  
+    
+}
+.watches img{
+border-radius: 20px;
+cursor: pointer;
+
+}
+.big{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap:10px;
+    margin-left: 180px; 
+}
+.big img{
+    height: 500px;
+    width: 700px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.footer-top{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.footer{
+    margin-top: 100px;
+    width:60%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+    margin-left: 100px;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+form input{
+    width: 400px;
+    height:45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color:#fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
