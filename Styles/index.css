@@ -11,15 +11,15 @@ margin: auto;
     margin-top:20px ;
     margin-left: 100px;
     display: grid;
-    grid-template-columns: repeat(15,1fr);
+    grid-template-columns: repeat(17,1fr);
 }
 #pages a{
     
     padding: 5px; 
     text-align: center;
     color:black;
-   font-weight: bold;
-  
+    font-weight: bold;
+    text-decoration: none;
 }
 #toptop{
     color: white;

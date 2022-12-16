@@ -15,10 +15,15 @@ border: 5px solid black;
 #signin input{
     font-size: 20px;
     border: 3px solid black;
+    padding: 7px 10px;
 }
 #signin h1{
     color: rgb(255, 0, 0);
 }
 #submit{
   cursor: pointer;
+ color: red;
+
+  border-radius: 6px;
+    font-size: 18px;
 }

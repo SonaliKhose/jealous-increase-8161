@@ -1,0 +1,128 @@
+#logo{
+    width:150px;
+    margin: auto;
+    }
+    .nav{
+        display: flex;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    #pages{
+        margin-top:20px ;
+        margin-left: 100px;
+        display: grid;
+        grid-template-columns: repeat(17,1fr);
+    }
+    #pages a{
+        
+        padding: 5px; 
+        text-align: center;
+        color:black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    #toptop{
+        color: white;
+        background-color:rgb(255, 166, 0);
+        padding: 2px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .banner{
+        margin-top: 10px;
+        margin-left: 180px;
+        cursor: pointer;
+    
+    }
+    .flat{
+        margin-top: 15px;
+        margin-left: 180px;
+    }
+    #product-container{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap:20px;
+        text-align: center;
+        
+    }
+    #product-container img{
+        width:300px;
+        height:300px;
+        border-radius: 20px;
+       
+    }
+    #product-container div{
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        padding:10px;
+        border-radius: 20px;
+       
+    }
+    .big{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        gap:10px;
+        margin-left: 180px; 
+    }
+    .big img{
+        height: 500px;
+        width: 700px;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+    .footer-top{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        margin-left: 180px;
+        padding: 10px 16px;
+        margin-top: 50px;
+    }
+    .footer{
+        margin-top: 100px;
+        width:60%;
+        padding: 100px 15%;
+        background: #333;
+        color: #efefef;
+        display: flex;
+        margin-left: 170px;
+    }
+    .footer div{
+        text-align: center;
+    }
+    .col-2{
+        flex-grow: 2;
+    }
+    .footer div h3{
+        font-weight: 300;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+    }
+    .col-1 a{
+        display: block;
+        text-decoration: none;
+        color: #efefef;
+        margin-bottom: 10px;
+    }
+    form input{
+        width: 400px;
+        height:45px;
+        border-radius: 4px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        outline: none;
+        border: none;
+    }
+    form button{
+        background: transparent;
+        border: 2px solid #fff;
+        color:#fff;
+        border-radius: 30px;
+        padding: 10px 30px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
