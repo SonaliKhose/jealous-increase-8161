@@ -22,365 +22,416 @@ let cart_data=[];
 let productData = [
       {
         image_url:
-          "http://sc04.alicdn.com/kf/H350e4805dce345958c764e1257e1e1c01.jpg",
+          "https://5.imimg.com/data5/EQ/EH/VJ/SELLER-99991114/mens-t-shirt-500x500.jpg",
         name: " T-shirt",
+        brand:"USB",
         price: "1170",
         strikedoffprice: "2599",
       },
       {
         image_url:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIsOEdRApXWlVfaWizgnr1KTVLxME9AfvQA&usqp=CAU",
+          "https://www.rupaonlinestore.com/media/catalog/product/cache/afbb16c06c4bb2ef3e3e5209a73260e6/1/0/1021-1.jpg",
         name: "T-shirt ",
+        brand:"USB",
         price: 699,
         strikedoffprice: 999,
       },
       {
-        image_url:"https://i.pinimg.com/474x/d6/67/41/d66741ca7364486105787b46f395be7e.jpg",
-        name:"Fashion",
+        image_url:"https://m.media-amazon.com/images/I/71equfCZugS._UL1500_.jpg",
+        name:"T-shirt",
+        brand:"USB",
         price: 945,
         strikedoffprice: 2099,
       },
       {
         image_url:
-          "https://i.pinimg.com/originals/71/38/16/713816e24cb2931ef3b7b184f33b7d76.jpg",
-        name: "Mon topos",
+          "https://m.media-amazon.com/images/I/717jeARAQkL._UL1500_.jpg",
+        name: "T-shirt",
+        brand:"USB",
         price: 399,
         strikedoffprice: 799,
       },
       {
         image_url:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7-ZVAPD0s9nzfTWV0qoXFjXRwqCFWo2qGRg&usqp=CAU",
-        name: "Jackyyy",
+          "https://m.media-amazon.com/images/I/71pRtS5mKFL._UL1200_.jpg",
+        name: "Jacket",
+        brand:"Riverside",
         price: 1620,
         strikedoffprice: 3599,
       },
       {
         image_url:
           "https://i0.wp.com/img.paisawapas.com/ovz3vew9pw/2022/02/24230927/relaxed-callen-crop-dback-1.jpg?resize=700%2C962&ssl=1 ",
-        name: " Branded Jeans ",
+        name: "  Jeans ",
+        brand:"Lee",
         price: 1440,
         strikedoffprice: 3199,
       },
       {
         image_url:
-          " https://i.pinimg.com/736x/57/20/2d/57202dad1a320d8e3050db5ce9a98e17.jpg",
+          " https://m.media-amazon.com/images/I/61EkBaffjUL._UX569_.jpg",
         name: " T-shirt ",
+        brand:"Fila",
         price: 1999,
         strikedoffprice: 3199,
       },
       {
-        image_url:
-          "https://i.pinimg.com/474x/da/cf/5d/dacf5d5fbaa356d22ab61ec16d0d3c06.jpg",
-        name: "Kurti",
+       image_url:
+          "https://m.media-amazon.com/images/I/41ti6x8Kn3L.jpg",
+        name: "Jacket",
+        brand:"Riverside",
         price: 769,
         strikedoffprice: 1099,
       },
       {
         image_url:
-          "https://i.pinimg.com/474x/b6/60/dd/b660ddcaed359f3071ac797e8cf7ca61.jpg",
-        name: "Kurti ",
+          "https://img.joomcdn.net/4427e31460aa4c5e53d6d6d27e2bc4b0cb7dbad5_original.jpeg",
+        name: "Jacket ",
+        brand:"Riverside",
         price: 1299,
         strikedoffprice: 1440,
       },
       {
         image_url:
-          "https://i.pinimg.com/474x/5d/3d/5f/5d3d5fe0b0c91cb37ab16c011c0f1818.jpg ",
-        name: "Saree",
+          "https://img1.exportersindia.com/product_images/bc-full/2020/4/6948333/mens-winter-jacket-1586596696-5367842.jpeg",
+        name: "Jacket",
+        brand:"Riverside",
         price: 699,
         strikedoffprice: 999,
       },
       {
         image_url:
-          " https://img3.junaroad.com/uiproducts/18465763/pri_175_p-1660281486.jpg",
-        name: "Kurti ",
+          "https://lazyenvironmentalist.com/wp-content/uploads/Taylor-Stitch-Sustainable-Clothing-Brand-Men.jpg ",
+        name: "Jacket",
+        brand:"Riverside",
         price: 1620,
         strikedoffprice: 3599,
       },
       {
         image_url:
-          "https://3.bp.blogspot.com/-2DIt75PxK6M/XHwGanhS6SI/AAAAAAAAJt4/VEQFr6zEK1Q4M_-pCuE-paj0yCMmTQFkACLcBGAs/s1600/kurtis%2Bmade%2Bfrom%2Bold%2Bsilk%2Bsarees%2B%252846%2529-horz.jpg",
-        name: "Kurti ",
+          "https://alitools.io/en/showcase/image?url=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FHTB1klkNKbSYBuNjSspiq6xNzpXaA%2FBrand-Winter-Jacket-Men-Clothes-Casual-Stand-Collar-Hooded-Collar-Fashion-Winter-Coat-Men-Parka-Outerwear.jpg",
+        name: "Jacket",
+        brand:"Riverside",
         price: 1620,
         strikedoffprice: 3599,
       },
       {
         image_url:
-          " https://www.fabfunda.com/blog/wp-content/uploads/2021/07/Nauvari-Sarees.jpg",
-        name: "Saree ",
+          "https://cf.shopee.com.my/file/8de4941d7bb89711364c46cb77d20cc8",
+        name: "Jacket",
+        brand:"Riverside",
         price: 599,
         strikedoffprice: 999,
       },
       {
         image_url:
-          "https://i.pinimg.com/originals/5e/88/b6/5e88b647285d95594afe4e3d2d6815a0.jpg",
-        name: "Saree",
+          "https://img.joomcdn.net/a9bd4d72881d862de710ff743d251261c5f406b0_original.jpeg",
+        name: "Jacket",
+        brand:"Riverside",
         price: 1575,
         strikedoffprice: 3499,
       },
       {
         image_url:
-          "https://stylesatlife.com/wp-content/uploads/2015/12/types-of-sarees-15.jpg.webp",
-        name: "Saree ",
+          "https://m.media-amazon.com/images/I/41WuWBnVa5L.jpg",
+        name: " Jacket",
+        brand:"Riverside",
         price: 9999,
         strikedoffprice: 12000,
       },
       {
         image_url:
-          "https://images.herzindagi.info/image/2022/Feb/different-Sarees-for-women.jpg",
-        name: " Saree",
+          "https://image.made-in-china.com/202f0j00pruqdLYaOhok/Famous-Brand-Jacket-Coat-Shirt-Tshirt-Tee-L-v-Monogram-Print-Jacket-Replica-Wholesale-Market-Designer-Women-Men-Man-Clothing-Luxury-Coat-Jackets.jpg",
+        name: " Jacket",
+        brand:"Riverside",
         price: 779,
         strikedoffprice: 1299,
       },
       {
         image_url:
-          "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/j/m/7/30-513320-v-mart-original-imaghyjf7znnun4m.jpeg?q=70",
+          "https://m.media-amazon.com/images/I/61lVj4vBjrL._UX569_.jpg",
         name: "Jeans  ",
+        brand:"Rare Rabit",
         price: 1019,
         strikedoffprice: 1699,
       },
       {
         image_url:
-          "https://womensbeautyoffers.com/wp-content/uploads/2019/06/Womens-Blue-Jeans-500-Rupay.png",
+          "https://img0.junaroad.com/uiproducts/18046021/zoom_1-1634898603.jpg",
         name: "Jeans ",
+        brand:"Rare Rabit",
         price: 1019,
         strikedoffprice: 1699,
       },
       {
         image_url:
-          "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/c/h/n/32-kttladiesjeans852-kotty-original-imagyt4gcnfcybjn-bb.jpeg?q=70 ",
+          "https://5.imimg.com/data5/SELLER/Default/2022/8/YU/DZ/KU/124684702/mens-big-size-jeans-1000x1000.jpeg",
         name: "Jeans",
         price: 1575,
         strikedoffprice: 3499,
       },
       {
         image_url:
-          "https://assets.ajio.com/medias/sys_master/root/20211027/7Znh/61789fceaeb2690110abb955/znx_clothing_multicoloured_floral_print_wrap_top.jpg",
-        name: " Top ",
+          "https://m.media-amazon.com/images/I/7140vZ9d5EL._UY550_.jpg",
+        name: " Shirt ",
+        brand:"Blackberry",
         price: 3499,
         strikedoffprice: 4999,
       },
       {
         image_url:
-          "https://assets.ajio.com/medias/sys_master/root/20211208/K3sR/61afb5bfaeb2690110feff1c/mayra_white_floral_print_round-neck_top.jpg ",
-        name: "Top ",
+          "https://m.media-amazon.com/images/I/71tGj-vrIjL._UY550_.jpg",
+        name: "Shirt ",
+        brand:"Blackberry",
         price: 749,
         strikedoffprice: 1499,
       },
       {
         image_url:
-          "https://rukminim1.flixcart.com/image/612/612/xif0q/top/6/u/g/s-mt363-oomph-original-imag72ethajpzhad-bb.jpeg?q=70",
-        name: " Top ",
+          "https://sepiastories.in/wp-content/uploads/2021/02/CALISTOHandblockPrintedCottonShirtBurgundyPreOrder03.jpeg",
+        name: " Shirt",
+        brand:"Blackberry",
         price: 1149,
         strikedoffprice: 2299,
       },
       {
         image_url:
-          "https://rukminim1.flixcart.com/image/612/612/kdhphu80/top/c/e/8/3xl-mt258-oomph-original-imafudxhqhchmtjm.jpeg?q=70",
-        name: "Top ",
+          "https://medias.utsavfashion.com/media/catalog/product/cache/1/small_image/295x/040ec09b1e35df139433887a97daa66f/i/k/ikat-printed-cotton-shirt-in-black-v1-mre38.jpg",
+        name: "Shirt",
+        brand:"Allen Solly ",
         price: 1620,
         strikedoffprice: 3599,
       },
       {
         image_url:
-          " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS10TV999Uzi5hgU4_wTIXtK6ZFGAPs3b0QXt-hbD8022GsTXvljWkxK1IkAhy0ZNE7E7g&usqp=CAU ",
-        name: " Top  ",
+          "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/1280x1280/products/2104/9881/New-Autumn-Fashion-Brand-Men-Clothes-Slim-Fit-Men-Long-Sleeve-Shirt-Men-Plaid-Cotton-Casual__15044.1569933891.jpg?c=2 ",
+        name: "Shirt ",
+        brand:"Allen Solly ",
+        brand:"",
         price: 779,
         strikedoffprice: 1299,
       },
       {
         image_url:
-          " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_LYsOi36Xxtl_d8ColKR4CZk1lzF8qpU3ntnYw8rWgfr1aHWFNBUjAJ7Ed9377UY-HLk&usqp=CAU",
-        name: "Top ",
+          " https://images.squarespace-cdn.com/content/v1/547a3834e4b053a861c4874e/1624219205079-2MV5PECBTTNFHIIYC8SX/Sustainably+Chic+%7C+Sustainable+Fashion+Blog+%7C+Sustainable+and+Ethical+Clothing+Brands+for+Men.jpg?format=1000w",
+        name: "Shirt",
         price: 3499,
         strikedoffprice: 4999,
       },
       {
         image_url:
-          "https://images.meesho.com/images/products/87836704/bodsr_256.webp",
+          "https://cdn.pixelbin.io/v2/holy-bread-55da3c/DeQLpM/wrkr/t.resize(h:600,w:510)/data/gas/16-09-2022/410345613_0200_1.jpg",
         name: "T-shirt   ",
+        brand:"Fila",
         price: 3499,
         strikedoffprice: 4999,
       },
       {
         image_url:
-          " https://i.pinimg.com/564x/92/4b/18/924b182697892fc80dac7b68746db277.jpg ",
+          " https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/16651862/2021/12/30/0cc7259d-4c6a-4598-8fac-afa9007bd3a31640878331690MenGreenLongSleevesCottonPrintedTshirts1.jpg",
         name: "T-shirt ",
+        brand:"Fila",
         price: 1399,
         strikedoffprice: 2799,
       },
       {
         image_url:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDMKhMgjFstU5qk99pBquMJP27XzRTR_dkJMpPPrYozgLzWiAkPSnt4buVmnidQnyVkaU&usqp=CAU ",
+          "https://i.pinimg.com/736x/1e/1f/ba/1e1fbadb1bdba9efd097d701ac2fd644.jpg ",
         name: "T-shirt",
+        brand:"Fila",
         price: 1575,
         strikedoffprice: 3499,
       },
       {
         image_url:
-          "https://cdn.shopify.com/s/files/1/0273/9568/6472/products/a-girl-has-no-name_black_women_front_800x.jpg?v=1604648235",
+          "https://barcelonaclub.in/wp-content/uploads/2022/10/005A1375-520x743.jpg",
         name: "T-shirt",
+        brand:"Roadster",
         price: 3919,
         strikedoffprice: 5599,
       },
       {
         image_url:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp8X7M8tw5u9x3YpkFIndVlJZnI4TPieMcPIYWIQkCZvyON-VoAbrhE4M3-RQ7XFV6H0U&usqp=CAU",
+          "https://www.wyo.in/pub/media/mf_webp/jpg/media/catalog/product/cache/718154c3aff62b1ad64160986aa81112/g/r/grey_camo_t-shirt.webp",
         name: "T-shirt",
+        brand:"Fila",
         price: 1620,
         strikedoffprice: 3599,
       },
       {
         image_url:
-          "https://fcity.in/images/products/82146213/jfjba_512.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5P-2gCbqMe_dr4MvaEfWQTco0Nry4yihgxb_wU2T1PYSctq-9A5rcOikvWzyCj3jJrpU&usqp=CAU",
         name: "T-shirt",
+        brand:"Roadster",
         price: 1620,
         strikedoffprice: 3599,
       },
       {
         image_url:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr5SzJEVwbH3pv7IXu-OZ66vN4AHc_Ie2Lug&usqp=CAU",
+          "https://m.media-amazon.com/images/I/41x+zshHJfL.jpg",
         name: "T-shirt",
+        brand:"Roadster",
         price: 7599,
         strikedoffprice: 9999,
       },
       {
         image_url:
-          "https://image.spreadshirtmedia.com/image-server/v1/mp/products/T347A386PA4306PT17X39Y88D1019089794W17274H16583/views/1,width=378,height=378,appearanceId=386,backgroundColor=F2F2F2/heart-letter-k-name-initials-spelling-love-gift.jpg",
+          "https://www.beyoung.in/api/cache/catalog/products/plain_new_update_images_2_5_2022/rose_pink_plain_t-shirt_men_base_30_5_2022_400x400.jpg",
         name: "T-shirt",
+        brand:"Roadster",
         price: 909,
         strikedoffprice: 1299,
       },
       {
         image_url:
-          "https://stylesatlife.com/wp-content/uploads/2021/07/Womens-Minnie-Mouse-T-Shirt.jpg.webp",
+          "http://cdn.shopify.com/s/files/1/0365/5892/9965/products/Muselot_shalfsleevet-shirtsformeninwhitecolor-frontpose.jpg?v=1625176293",
         name: "T-shirt",
+        brand:"Roadster",
         price: 779,
         strikedoffprice: 1299,
       },
       {
         image_url:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1V11ygpCd2lSR97ljCl09CvvCJUISNKM-ZYEYSM1HujFmI4eWy0pAWg1_KQtf_Ygw8lk&usqp=CAU",
+          "https://assets.ajio.com/medias/sys_master/root/20220121/8pKF/61ea5b4baeb2695cdd24612b/-473Wx593H-461592493-multi-MODEL.jpg",
         name: "T-shirt",
+        brand:"Roadster",
         price: 1749,
         strikedoffprice: 2499,
       },
       {
         image_url:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLxWZ1HZDUNp1rmSKftgiaqZEAvfwMcbZAUazCUiT3Y3grWpd90yeoAD7MX3ZAdz3LKCU&usqp=CAU",
+          "https://assets.ajio.com/medias/sys_master/root/20220121/DwGv/61ea58afaeb2695cdd2436ee/-473Wx593H-461575169-maroon-MODEL.jpg",
         name: "T-shirt",
+        brand:"Roadster",
         price: 1079,
         strikedoffprice: 1799,
       },
       {
-        image_url:"https://i.pinimg.com/474x/d6/67/41/d66741ca7364486105787b46f395be7e.jpg",
-        name:"Fashion",
+        image_url:"https://cdn.shopify.com/s/files/1/0274/0086/3853/products/IMG_3970.jpg?v=1666070318",
+        name:"Shirt",
+        brand:"Allen Solly ",
         price: 945,
         strikedoffprice: 2099,
       },
       {
         image_url:
-          "https://i.pinimg.com/originals/71/38/16/713816e24cb2931ef3b7b184f33b7d76.jpg",
-        name: "Mon topos",
+          "https://cdn.shopify.com/s/files/1/0274/0086/3853/products/IMG_7382.jpg?v=1655277649",
+        name: "Shirt",
+        brand:"Allen Solly ",
         price: 399,
         strikedoffprice: 799,
       },
       {
         image_url:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7-ZVAPD0s9nzfTWV0qoXFjXRwqCFWo2qGRg&usqp=CAU",
-        name: "Jackyyy",
+          "https://5.imimg.com/data5/SELLER/Default/2022/7/TN/BW/CF/157166947/aj-shirt-06-lo-front-250x250.jpg",
+        name: "Shirt",
+        brand:"Allen Solly ",
         price: 1620,
         strikedoffprice: 3599,
       },
       {
         image_url:
-          "https://i0.wp.com/img.paisawapas.com/ovz3vew9pw/2022/02/24230927/relaxed-callen-crop-dback-1.jpg?resize=700%2C962&ssl=1 ",
-        name: " Branded Jeans ",
+          "https://mcrshopping.com/img/product/EIt2dWDKxEqhwKmn.jpg",
+        name: " Shirt ",
+        brand:"Allen Solly ",
         price: 1440,
         strikedoffprice: 3199,
       },
       {
         image_url:
-          "https://i.pinimg.com/474x/da/cf/5d/dacf5d5fbaa356d22ab61ec16d0d3c06.jpg",
-        name: "Kurti",
+          "https://cdn.shopify.com/s/files/1/0266/6276/4597/products/300911019GREY_1_1024x1024.jpg?v=1667581490",
+        name: "Jeans",
+        brand:"Pepe jeans",
         price: 769,
         strikedoffprice: 1099,
       },
       {
         image_url:
-          "https://i.pinimg.com/474x/b6/60/dd/b660ddcaed359f3071ac797e8cf7ca61.jpg",
-        name: "Kurti ",
+          "https://5.imimg.com/data5/SELLER/Default/2022/6/NU/CA/CF/94419818/men-ripped-skinny-jeans-250x250.jpg",
+        name: "Jeans ",
+        brand:"Pepe jeans",
         price: 1299,
         strikedoffprice: 1440,
       },
       {
         image_url:
-          "https://i.pinimg.com/474x/5d/3d/5f/5d3d5fe0b0c91cb37ab16c011c0f1818.jpg ",
-        name: "Saree",
+          "https://m.media-amazon.com/images/I/71tjalewEpL._UL1500_.jpg",
+        name: "Jeans",
+        brand:"Pepe jeans",
         price: 699,
         strikedoffprice: 999,
       },
       {
         image_url:
-          " https://img3.junaroad.com/uiproducts/18465763/pri_175_p-1660281486.jpg",
-        name: "Kurti ",
+          "https://i.pinimg.com/originals/7d/5a/e5/7d5ae56b2fbe7f86a2f604efe818aa33.jpg ",
+        name: "Jeans",
+        brand:"Pepe jeans",
         price: 1620,
         strikedoffprice: 3599,
       },
       {
         image_url:
-          "https://3.bp.blogspot.com/-2DIt75PxK6M/XHwGanhS6SI/AAAAAAAAJt4/VEQFr6zEK1Q4M_-pCuE-paj0yCMmTQFkACLcBGAs/s1600/kurtis%2Bmade%2Bfrom%2Bold%2Bsilk%2Bsarees%2B%252846%2529-horz.jpg",
-        name: "Kurti ",
+          "https://stylesatlife.com/wp-content/uploads/2016/12/Outdoor-men%E2%80%99s-jeans-19.jpg",
+        name: "Jeans",
         price: 1620,
+        brand:"Pepe jeans",
         strikedoffprice: 3599,
       },
       {
         image_url:
-          " https://www.fabfunda.com/blog/wp-content/uploads/2021/07/Nauvari-Sarees.jpg",
-        name: "Saree ",
+          "https://cdn.shopify.com/s/files/1/0608/7874/9892/products/7rvWe3eDL-MJK-02BBHW-052FLAME-ORANGE-_281_29_c28f25a7-8c6e-4605-898f-036f5b2c8c63_540x.jpg?v=1656681963",
+        name: " Jacket",
+        brand:"Pathfinders Fashion",
         price: 599,
         strikedoffprice: 999,
       },
       {
         image_url:
-          "https://i.pinimg.com/originals/5e/88/b6/5e88b647285d95594afe4e3d2d6815a0.jpg",
-        name: "Saree",
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/jacket/g/h/b/m-no-hhmjks035-ol-hubberholme-original-imaggjyh7xnfzrr7.jpeg?q=70",
+        name: "Jacket",
+        brand:"Pathfinders Fashion",
         price: 1575,
         strikedoffprice: 3499,
       },
       {
         image_url:
-          "https://stylesatlife.com/wp-content/uploads/2015/12/types-of-sarees-15.jpg.webp",
-        name: "Saree ",
+          "https://static.cilory.com/566787-large_default/army-green-faux-leather-jacket.jpg.webp",
+        name: "Jacket",
+        brand:"Pathfinders Fashion",
         price: 9999,
         strikedoffprice: 12000,
       },
       {
         image_url:
-          "https://images.herzindagi.info/image/2022/Feb/different-Sarees-for-women.jpg",
-        name: " Saree",
+          "https://www.angeljackets.com/eu/product_images/x/615/Mens_Everhart_Black_Leather_Jacket__31781_thumb.jpg",
+        name: "Jacket",
+        brand:"Pathfinders Fashion",
         price: 779,
         strikedoffprice: 1299,
       },
       {
         image_url:
-          "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/j/m/7/30-513320-v-mart-original-imaghyjf7znnun4m.jpeg?q=70",
+          "https://cdn.anscommerce.com/image/tr:e-sharpen-01,h-416,w-314,cm-pad_resize/data/celio-india/31-aug-2021/7888355_2.jpg",
         name: "Jeans  ",
+        brand:"Levi's",
         price: 1019,
         strikedoffprice: 1699,
       },
       {
         image_url:
-          "https://womensbeautyoffers.com/wp-content/uploads/2019/06/Womens-Blue-Jeans-500-Rupay.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQucwhtLI1kwxH1zUMIClmiKSeqtFddWguiRQ&usqp=CAU",
         name: "Jeans ",
+        brand:"Levi's",
         price: 1019,
         strikedoffprice: 1699,
       },
       {
         image_url:
-          "https://i.pinimg.com/originals/5e/88/b6/5e88b647285d95594afe4e3d2d6815a0.jpg",
-        name: "Saree",
-        price: 1575,
-        strikedoffprice: 3499,
+          "https://assets.ajio.com/medias/sys_master/root/20210715/6gOh/60ef5fb3f997ddb31227af6b/campus_sutra_light_blue_light-wash__relaxed_jeans.jpg",
+          name:"Jeans",
+          brand:"Levi's",
+          price: 1575,
+          strikedoffprice: 3499,
       },
     ];
     
@@ -398,14 +449,17 @@ productData.forEach(function(el,index){
   
       let name=document.createElement("h1");
       name.textContent=el.name;
+
+      let brand=document.createElement("h3");
+      brand.textContent="Brand=> "+el.brand;
   
       let price=document.createElement("h3");
-     price.textContent="Price with Discount!! : "+el.price;
+     price.textContent="Price with Discount!! : $"+el.price;
      price.style.color="red"
 
   
       let strikedoffprice=document.createElement("h3");
-      strikedoffprice .textContent="Price without Discount-- : "+el.strikedoffprice;
+      strikedoffprice .textContent="Price without Discount-- : $"+el.strikedoffprice;
   
       let button=document.createElement("button");
       button.textContent="Add To Basket";
@@ -423,10 +477,11 @@ productData.forEach(function(el,index){
       button.addEventListener("click",function(index){
        
         cart_data.push(el);      
-        localStorage.setItem("menscart",JSON.stringify(cart_data))
+        localStorage.setItem("menscart",JSON.stringify(cart_data));
+        window.location.assign("./basket.html")
       })
   
-      card.append(image_url,name,price,strikedoffprice,button);
+      card.append(image_url,name,brand,price,strikedoffprice,button);
       
       parent.append(card);
       
