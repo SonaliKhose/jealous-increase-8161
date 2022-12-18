@@ -1,0 +1,25 @@
+*{
+    background-image: url("https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL3JtNDY3YmF0Y2g2LWNhcnQxLTAxYi5wbmc.png?s=IW-1s2tCQ8CbB1GjyGIaaegO4-l5WVqR_hbicJFMW6c");
+    
+}
+.womenscart-container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    text-align: center;
+    
+}
+.womenscart-container img{
+    width:300px;
+    height:300px;
+    border-radius: 20px;
+   
+}
+
+.womenscart-container div{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding:10px;
+    border-radius: 20px;
+   
+}
