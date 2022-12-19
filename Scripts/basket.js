@@ -51,6 +51,16 @@ let totalPrice=0;
       button.style.fontWeight="bold";
       button.style.borderRadius="7px";
 
+      button.addEventListener("click",function(){
+        window.location.assign("./cartdetails.html")
+        
+      })
+
+
+
+
+
+
       Delete=document.createElement("button");
       Delete.textContent="Remove from Basket"
       

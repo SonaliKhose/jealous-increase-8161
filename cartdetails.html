@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART Details</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        color: blue;
+    }
+    img{
+        width:150px;
+        height: 170px;
+    }
+    .cart-details{
+        height:500px;
+        width:400px;
+       
+        margin-top: 100px;
+        margin-left: 38%;
+        padding: 20px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    #last{
+        display: flex;
+        justify-content: space-between;
+    }
+    .button{
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    #b1{
+        font-size: 20px;
+        color: red;
+        background-color: yellow;
+        padding: 5px;
+        border: 2px solid black;
+        width: 200px;
+        cursor: pointer;
+    }
+    #b2{
+        font-size: 20px;
+        margin-top: 7px;
+        color: blue;
+        background-color: pink;
+        padding: 5px;
+        border: 2px solid black;
+        width: 200px;
+        cursor: pointer;
+    }
+    
+</style>
+
+<body>
+   
+    <div class="cart-details">
+        <div id="top">
+            <h1 >BASKET DETAILS</h1>
+            <h4 style="color:red">MISSED OFFER:
+                <p>Shop for Rs. 2,999 & Get 10% Off. Code - EOSS10</p></h4>
+            
+            <h4 style="color:blueviolet">OFFER CLAIMED:<p>You save ₹ 800.</p></h4>  
+            
+        </div>
+        <div id="last">
+            <div> <img src="https://i.pinimg.com/474x/d6/67/41/d66741ca7364486105787b46f395be7e.jpg"></div>
+           <div>
+            <h3>$945</h3> <p>Qty:1</p>
+           
+            <h3>Subtotal:$945</h3><p>(Shipping charges may apply)</p>
+            
+           </div>
+           
+          
+        </div>
+        <div class="button">
+            <button id="b1" onclick="MyFun()">VIEW BASKET</button>
+            <button id="b2" onclick="MyFunction()">CHECKOUT</button>
+           </div>
+        
+    </div>
+</body>
+</html>
+<script>
+   function MyFun(){
+   window.location.assign("./basket.html")
+    }
+    function MyFunction(){
+        window.location.assign("payment.html")
+    }
+</script>
