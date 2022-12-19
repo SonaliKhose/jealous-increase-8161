@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+</head>
+<style>
+    input{
+        font-size: 20px;
+        border: 1px solid black;
+    }
+    .payment{
+        height: 350px;
+        width: 300px;
+        border: 1px solid white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 15%;
+        margin-left: 40%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    #submit{
+        font-size: 30px;
+        padding: 7px 16px;
+        border-radius: 10px;
+        border: 2px solid black;
+        color: blue;
+        background-color: aqua;
+    }
+</style>
+<body>
+
+    
+
+
+    <div class="payment">
+        <h1 style="color:red">Home Delivery</h1>
+        <form id="details">
+            <input type="text" id="name" placeholder="Enter Your resistered Name"><br><br>
+            <input type="number" id="mono" placeholder="Enter your Contact number"/><br><br>
+            <input type="text" id="add" placeholder="Enter address With pincode"/><br><br>
+            <input type="number" id="card" placeholder="Enter Card number"/><br><br>
+            <input type="number" id="id" placeholder="CVV"/><br><br>
+            <input type="submit" id="submit" value="Confirm Payment"/><br><br>
+
+        </form> 
+    </div>
+          
+
+</body>
+</html>
+<script>
+    let details=document.querySelector("#details");
+
+    details.addEventListener("submit",function(event){
+        event.preventDefault();
+        if(details.name.value=="sonali" && details.card.value==1111222233334444&&details.id.value==34){
+            alert("Payment Successful!!! Have a great Experiance!!!");
+            window.location.assign("./index.html")
+        }
+        else{
+            alert("Please Enter valid details.");
+        }
+    })
+</script>

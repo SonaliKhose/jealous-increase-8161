@@ -488,7 +488,7 @@ let productData = [
       },
     ];
     
-
+   
 //Display on dom
 productData.forEach(function(el,index){
   
